@@ -1,3 +1,41 @@
+body {
+  margin: 0;
+  margin-top: 80px;
+}
+
+nav .f-left {
+  float: left;
+}
+
+nav .f-right {
+  float: right;
+  margin-top: 8px;
+  margin-right: 36px;
+}
+
+nav {
+  text-align: center;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+nav svg {
+  height: 16px;
+  margin: 16px 12px 0;
+}
+
+nav > svg {
+  height: 24px;
+}
+
+nav button {
+}
+
 article {
   width: 945px;
   margin: 0 auto;
@@ -6,5 +44,4 @@ article {
 
 .title-img img {
   width: 100%;
-
 }
