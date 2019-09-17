@@ -45,3 +45,36 @@ article {
 .title-img img {
   width: 100%;
 }
+
+.title-img-desc {
+  width: 900px;
+  color: rgb(63, 63, 63);
+}
+
+.credit {
+  font-size: 14px;
+}
+
+.article-info, .article {
+  width: 600px;
+  margin: 0 auto;
+
+  border: 2px solid blue;
+}
+
+.article-info {
+
+}
+
+.social-media ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+.social-media img {
+  width: 15px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 50%;
+  padding: 8px;
+}
+
