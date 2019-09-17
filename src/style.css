@@ -1,7 +1,10 @@
-.article-container {
-  float: left;
+article {
+  width: 945px;
+  margin: 0 auto;
+  border: 2px solid red;
 }
 
-aside {
-  float: right;
+.title-img img {
+  width: 100%;
+
 }
