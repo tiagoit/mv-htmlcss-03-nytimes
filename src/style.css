@@ -183,21 +183,21 @@ aside {
   right: 80px;
 }
 
-aside h2 {
+aside > h2 {
   font-size: 18px;
   font-weight: bold;
 }
 
-aside div {
+aside > div {
   height: 90px;
   display: inline-flex;
 }
 
-aside div img {
+aside > div img {
   height: 80px;
 }
 
-aside div .title {
+aside > div .title {
   font-size: 14px;
   margin-left: 4px;
   text-align: justify;
@@ -225,16 +225,16 @@ footer div.ny-logo > span:last-child {
   top: 16px;
 }
 
-footer div.ny-logo > span:last-child > a {
+footer div.ny-logo > span:last-child a {
   text-decoration: none;
   color: blue;
 }
 
-footer div.f-nav-1:before {
+footer div.f-nav-1::before {
   content: " ";
   display: block;
   height: 1px;
-  margin-top: 0px;
+  margin-top: 0;
   border-bottom: 1px solid rgb(226, 226, 226);
   border-top: 2px solid rgb(226, 226, 226);
 }
@@ -260,14 +260,14 @@ footer div.f-nav-1 nav li:first-child {
   font-weight: bold;
 }
 
-footer div.f-nav-1 nav li:first-child:hover {
-  font-weight: bold;
-  text-decoration: none;
-}
-
 footer div.f-nav-1 nav li:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+footer div.f-nav-1 nav li:first-child:hover {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer div.f-nav-1 nav ul:last-child {
