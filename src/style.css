@@ -1,11 +1,9 @@
-
-
 body {
   margin-top: 80px 0 0;
   font-size: 14px;
 }
 
-nav {
+header nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -16,27 +14,37 @@ nav {
   background-color: #fff;
 }
 
-nav .f-left {
+header nav .f-left {
   float: left;
   line-height: 24px;
   padding-top: 8px;
   margin-left: 24px;
 }
 
-nav .f-right {
+header nav .f-left svg {
+  margin-right: 16px;
+}
+
+header nav .f-left span {
+  font-weight: bold;
+}
+
+header nav .f-right {
   float: right;
   margin-right: 24px;
 }
 
-nav svg {
+header nav svg {
   height: 16px;
 }
 
-nav svg.logo {
+header nav svg.logo {
   height: 24px;
+  position: relative;
+  top: 8px;
 }
 
-nav button {
+header nav button {
   height: 28px;
   background-color: #6288a5;
   border: none;
@@ -55,7 +63,7 @@ article {
 }
 
 .article-title {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 700;
@@ -69,7 +77,6 @@ article {
   width: 850px;
   float: left;
   color: rgb(63, 63, 63);
-
 }
 
 .credit {
@@ -116,4 +123,53 @@ article {
 
 #diagram-img {
   width: 900px;
+}
+
+/* FOOTER */
+footer nav.f-nav-1 {
+  display: inline-flex;
+}
+
+footer nav.f-nav-1 ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer nav.f-nav-1 li {
+  margin-top: 8px;
+}
+
+footer nav.f-nav-1 li:first-child {
+  font-weight: bold;
+}
+
+footer nav.f-nav-1 li:first-child:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer nav.f-nav-1 li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer nav.f-nav-1 ul:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+footer nav.f-nav-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 24px 36px;
+}
+
+footer nav.f-nav-2 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+
+footer nav.f-nav-2 a:hover {
+  text-decoration: underline;
 }
