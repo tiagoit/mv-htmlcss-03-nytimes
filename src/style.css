@@ -146,14 +146,15 @@ article {
   position: absolute;
   width: 110%;
   left: 0;
-  top: 150px;
+  top: 130px;
+  text-align: start;
 }
 
 .diagram-img-caption {
   display: inline-block;
   width: 204px;
   height: 100px;
-  margin: 40px 10px;
+  margin: 35px 10px;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 90px;
   font-size: 12px;
