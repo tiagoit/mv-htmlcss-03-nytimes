@@ -48,8 +48,10 @@ nav button {
 }
 
 article {
+  float: left;
   width: 1200px;
   margin: 80px auto;
+  margin-left: 460px;
 }
 
 .article-title {
@@ -63,7 +65,7 @@ article {
   width: 100%;
 }
 
-.title-img-desc {
+.image-desc {
   width: 850px;
   float: left;
   color: rgb(63, 63, 63);
@@ -80,8 +82,9 @@ article {
 
 .article-info,
 .article {
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
+  padding: 0 300px;
 }
 
 .social-media {
@@ -102,4 +105,15 @@ article {
   clear: both;
   font-size: 21px;
   line-height: 27px;
+}
+
+.article-img img {
+  width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  float: left;
+}
+
+#diagram-img {
+  width: 900px;
 }
