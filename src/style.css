@@ -48,10 +48,8 @@ nav button {
 }
 
 article {
-  float: left;
   width: 1200px;
   margin: 80px auto;
-  margin-left: 460px;
 }
 
 .article-title {
@@ -59,6 +57,11 @@ article {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 700;
+}
+
+.title-img {
+  width: 900px;
+  margin: 0 auto;
 }
 
 .title-img > img {
@@ -82,7 +85,6 @@ article {
 
 .article-info,
 .article {
-  /* width: 600px; */
   margin: 0 auto;
   padding: 0 300px;
 }
