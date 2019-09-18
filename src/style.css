@@ -22,6 +22,16 @@ header nav .f-left {
   margin-left: 24px;
 }
 
+header nav svg {
+  height: 16px;
+}
+
+header nav svg.logo {
+  height: 24px;
+  position: relative;
+  top: 8px;
+}
+
 header nav .f-left svg {
   margin-right: 16px;
 }
@@ -33,16 +43,6 @@ header nav .f-left span {
 header nav .f-right {
   float: right;
   margin-right: 24px;
-}
-
-header nav svg {
-  height: 16px;
-}
-
-header nav svg.logo {
-  height: 24px;
-  position: relative;
-  top: 8px;
 }
 
 header nav button {
@@ -80,12 +80,12 @@ article a {
   width: 450px;
 }
 
-.title-img {
+article .title-img {
   width: 900px;
   margin: 0 auto;
 }
 
-.title-img > img {
+article .title-img > img {
   width: 100%;
 }
 
@@ -109,16 +109,16 @@ article a {
   width: 600px;
 }
 
-.social-media {
+article .social-media {
   float: right;
 }
 
-.social-media ul li {
+article .social-media ul li {
   list-style-type: none;
   display: inline;
 }
 
-.social-media img {
+article .social-media img {
   width: 15px;
   padding: 8px;
 }
@@ -209,34 +209,36 @@ footer {
   clear: both;
   margin-top: 80px;
 }
-div.ny-logo {
+
+footer div.ny-logo {
   width: 90%;
   margin-left: 5%;
 }
 
-div.ny-logo > span:first-child > svg {
+footer div.ny-logo > span:first-child > svg {
   height: 40px;
 }
 
-div.ny-logo > span:last-child {
+footer div.ny-logo > span:last-child {
   float: right;
   position: relative;
   top: 16px;
 }
 
-div.ny-logo > span:last-child > a {
+footer div.ny-logo > span:last-child > a {
   text-decoration: none;
   color: blue;
 }
 
 footer div.f-nav-1:before {
-  content: "";
+  content: " ";
   display: block;
   height: 1px;
   margin-top: 0px;
   border-bottom: 1px solid rgb(226, 226, 226);
   border-top: 2px solid rgb(226, 226, 226);
 }
+
 footer div.f-nav-1 {
   display: inline-block;
   width: 90%;
