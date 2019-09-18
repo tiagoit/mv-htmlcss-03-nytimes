@@ -12,6 +12,7 @@ header nav {
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   background-color: #fff;
+  z-index: 1;
 }
 
 header nav .f-left {
@@ -55,16 +56,21 @@ header nav button {
   border-radius: 4px;
 }
 
+/* ARTICLE / MAIN  */
+
 article {
   width: 1200px;
   margin: 80px auto;
 }
 
 .article-title {
+  float: left;
+  margin-left: 260px;
   font-family: "Merriweather", serif;
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 700;
+  width: 450px;
 }
 
 .title-img {
@@ -93,7 +99,6 @@ article {
 .article-info,
 .article {
   margin: 0 auto;
-  /* padding: 0 300px; */
   width: 600px;
 }
 
@@ -118,7 +123,7 @@ article {
 }
 
 .img-caption {
-  font-size: 16px;  
+  font-size: 16px;
   line-height: 19px;
   color: rgb(63, 63, 63);
 }
@@ -126,58 +131,6 @@ article {
 .collapse-parent {
   position: relative;
   width: 900px;
-<<<<<<< HEAD
-}
-
-/* FOOTER */
-footer nav.f-nav-1 {
-  display: inline-flex;
-}
-
-footer nav.f-nav-1 ul {
-  display: inline-block;
-  list-style-type: none;
-}
-
-footer nav.f-nav-1 li {
-  margin-top: 8px;
-}
-
-footer nav.f-nav-1 li:first-child {
-  font-weight: bold;
-}
-
-footer nav.f-nav-1 li:first-child:hover {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-footer nav.f-nav-1 li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-footer nav.f-nav-1 ul:last-child {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-footer nav.f-nav-2 {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  padding: 24px 36px;
-}
-
-footer nav.f-nav-2 a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 12px;
-}
-
-footer nav.f-nav-2 a:hover {
-  text-decoration: underline;
-}
-=======
   margin-left: -140px;
 }
 
@@ -189,9 +142,7 @@ footer nav.f-nav-2 a:hover {
   width: 100%;
 }
 
-
 .diagram-img-text {
-  color: red;
   position: absolute;
   width: 110%;
   left: 0;
@@ -199,11 +150,118 @@ footer nav.f-nav-2 a:hover {
 }
 
 .diagram-img-caption {
-  width: 200px;
-  height: 100px;
   display: inline-block;
-  padding: 40px 10px;
-  font-size: 14px;
+  width: 204px;
+  height: 100px;
+  margin: 40px 10px;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 90px;
+  font-size: 12px;
   line-height: 16px;
 }
->>>>>>> 56273007e3c26f71b193d9461f0b0de5c36b7310
+
+.bold-text {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* FOOTER */
+
+<<<<<<< HEAD
+div.ny-logo {
+  width: 90%;
+  margin-left: 5%;
+}
+
+div.ny-logo > span:first-child > svg {
+  height: 40px;
+=======
+footer nav.f-nav-1 {
+  display: inline-flex;
+>>>>>>> 182628843f682b82c7e009b2c2978048b3f2c84e
+}
+
+div.ny-logo > span:last-child {
+  float: right;
+  position: relative;
+  top: 16px;
+}
+
+div.ny-logo > span:last-child > a {
+  text-decoration: none;
+  color: blue;
+}
+
+footer div.f-nav-1:before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+}
+footer div.f-nav-1 {
+  display: inline-block;
+  width: 90%;
+  margin-left: 5%;
+}
+
+footer div.f-nav-1 nav ul {
+  float: left;
+  width: 13%;
+  margin: auto;
+  list-style-type: none;
+}
+
+footer div.f-nav-1 nav li {
+  margin-top: 8px;
+}
+
+footer div.f-nav-1 nav li:first-child {
+  font-weight: bold;
+}
+
+footer div.f-nav-1 nav li:first-child:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer div.f-nav-1 nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer div.f-nav-1 nav ul:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+footer div.f-nav-2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+footer div.f-nav-2 nav {
+  width: 85%;
+  margin: 0 auto;
+  padding: 24px 36px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 16px;
+}
+
+footer div.f-nav-2 nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  float: left;
+  width: 6%;
+}
+
+footer div.f-nav-2 nav a:first-child {
+  width: 220px;
+}
+
+footer div.f-nav-2 nav a:hover {
+  text-decoration: underline;
+}
