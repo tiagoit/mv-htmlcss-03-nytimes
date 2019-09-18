@@ -58,7 +58,7 @@ header nav button {
 
 /* ARTICLE / MAIN  */
 div.main-wrapper {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 article {
@@ -206,7 +206,9 @@ aside div .title {
 
 /* FOOTER */
 footer {
+  clear: both;
   margin-top: 80px;
+  
 }
 div.ny-logo {
   width: 90%;
