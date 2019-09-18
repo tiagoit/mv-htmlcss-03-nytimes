@@ -126,32 +126,7 @@ article {
 .collapse-parent {
   position: relative;
   width: 900px;
-  margin-left: -140px;
-}
-
-#diagram-img {
-  width: inherit;
-}
-
-#telescope-img {
-  width: 100%;
-}
-
-.diagram-img-text {
-  color: red;
-  position: absolute;
-  width: 110%;
-  left: 0;
-  top: 150px;
-}
-
-.diagram-img-caption {
-  width: 200px;
-  height: 100px;
-  display: inline-block;
-  padding: 40px 10px;
-  font-size: 14px;
-  line-height: 16px;
+<<<<<<< HEAD
 }
 
 /* FOOTER */
@@ -202,3 +177,33 @@ footer nav.f-nav-2 a {
 footer nav.f-nav-2 a:hover {
   text-decoration: underline;
 }
+=======
+  margin-left: -140px;
+}
+
+#diagram-img {
+  width: inherit;
+}
+
+#telescope-img {
+  width: 100%;
+}
+
+
+.diagram-img-text {
+  color: red;
+  position: absolute;
+  width: 110%;
+  left: 0;
+  top: 150px;
+}
+
+.diagram-img-caption {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  padding: 40px 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+>>>>>>> 56273007e3c26f71b193d9461f0b0de5c36b7310
