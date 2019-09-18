@@ -180,7 +180,7 @@ aside {
   position: absolute;
   float: right;
   top: 960px;
-  right: 260px;
+  right: 80px;
 }
 
 aside h2 {
@@ -208,7 +208,6 @@ aside div .title {
 footer {
   clear: both;
   margin-top: 80px;
-  
 }
 div.ny-logo {
   width: 90%;
