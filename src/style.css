@@ -110,23 +110,40 @@ article {
   line-height: 27px;
 }
 
-.article-img img {
-  margin: 0 auto;
-  float: left;
-  margin-bottom: 10px;
-}
-
 .img-caption {
   font-size: 16px;  
   line-height: 19px;
   color: rgb(63, 63, 63);
 }
 
-#diagram-img {
+.collapse-parent {
+  position: relative;
   width: 900px;
-  padding: 0;
+  margin-left: -140px;
+}
+
+#diagram-img {
+  width: inherit;
 }
 
 #telescope-img {
   width: 100%;
+}
+
+
+.diagram-img-text {
+  color: red;
+  position: absolute;
+  width: 110%;
+  left: 0;
+  top: 150px;
+}
+
+.diagram-img-caption {
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  padding: 40px 10px;
+  font-size: 14px;
+  line-height: 16px;
 }
