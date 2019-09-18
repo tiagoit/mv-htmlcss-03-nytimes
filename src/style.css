@@ -121,9 +121,10 @@ article a {
 }
 
 .article {
-  clear: both;
+  float: left;
   font-size: 21px;
   line-height: 27px;
+  margin-left: 300px;
 }
 
 .img-caption {
@@ -176,7 +177,7 @@ aside {
   position: absolute;
   float: right;
   top: 960px;
-  right: 360px;
+  right: 260px;
 }
 
 aside h2 {
