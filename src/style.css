@@ -155,16 +155,18 @@ article {
   width: 204px;
   height: 100px;
   margin: 35px 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-bottom: 90px;
   font-size: 12px;
   line-height: 16px;
 }
 
 .bold-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
 /* FOOTER */
 
 div.ny-logo {
