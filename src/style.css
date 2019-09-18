@@ -1,5 +1,8 @@
+
+
 body {
   margin-top: 80px 0 0;
+  font-size: 14px;
 }
 
 nav {
@@ -45,17 +48,26 @@ nav button {
 }
 
 article {
-  width: 945px;
+  width: 1200px;
   margin: 80px auto;
 }
 
-.title-img img {
+.article-title {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.title-img > img {
   width: 100%;
 }
 
 .title-img-desc {
-  width: 900px;
+  width: 850px;
+  float: left;
   color: rgb(63, 63, 63);
+
 }
 
 .credit {
@@ -88,4 +100,6 @@ article {
 
 .article {
   clear: both;
+  font-size: 21px;
+  line-height: 27px;
 }
