@@ -1,6 +1,6 @@
 body {
   margin-top: 80px 0 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 header nav {
@@ -63,6 +63,10 @@ article {
   margin: 80px auto;
 }
 
+article a {
+  color: #326891;
+}
+
 .article-title {
   float: left;
   margin-left: 260px;
@@ -123,7 +127,7 @@ article {
 }
 
 .img-caption {
-  font-size: 16px;
+  font-size: 16px;  
   line-height: 19px;
   color: rgb(63, 63, 63);
 }
@@ -147,7 +151,6 @@ article {
   width: 110%;
   left: 0;
   top: 130px;
-  text-align: start;
 }
 
 .diagram-img-caption {
@@ -155,14 +158,14 @@ article {
   width: 204px;
   height: 100px;
   margin: 35px 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding-bottom: 90px;
   font-size: 12px;
   line-height: 16px;
 }
 
 .bold-text {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -198,95 +201,50 @@ aside div .title {
 }
 
 /* FOOTER */
-div.ny-logo {
-  width: 90%;
-  margin-left: 5%;
+footer nav.f-nav-1 {
+  display: inline-flex;
 }
 
-div.ny-logo > span:first-child > svg {
-  height: 40px;
-}
-
-div.ny-logo > span:last-child {
-  float: right;
-  position: relative;
-  top: 16px;
-}
-
-div.ny-logo > span:last-child > a {
-  text-decoration: none;
-  color: blue;
-}
-
-footer div.f-nav-1:before {
-  content: "";
-  display: block;
-  height: 1px;
-  margin-top: 0px;
-  border-bottom: 1px solid rgb(226, 226, 226);
-  border-top: 2px solid rgb(226, 226, 226);
-}
-footer div.f-nav-1 {
+footer nav.f-nav-1 ul {
   display: inline-block;
-  width: 90%;
-  margin-left: 5%;
-}
-
-footer div.f-nav-1 nav ul {
-  float: left;
-  width: 13%;
-  margin: auto;
   list-style-type: none;
 }
 
-footer div.f-nav-1 nav li {
+footer nav.f-nav-1 li {
   margin-top: 8px;
 }
 
-footer div.f-nav-1 nav li:first-child {
+footer nav.f-nav-1 li:first-child {
   font-weight: bold;
 }
 
-footer div.f-nav-1 nav li:first-child:hover {
+footer nav.f-nav-1 li:first-child:hover {
   font-weight: bold;
   text-decoration: none;
 }
 
-footer div.f-nav-1 nav li:hover {
+footer nav.f-nav-1 li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-footer div.f-nav-1 nav ul:last-child {
+footer nav.f-nav-1 ul:last-child {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-footer div.f-nav-2 {
-  display: inline-block;
+footer nav.f-nav-2 {
+  display: flex;
   width: 100%;
-  text-align: center;
-}
-
-footer div.f-nav-2 nav {
-  width: 85%;
-  margin: 0 auto;
+  justify-content: space-around;
   padding: 24px 36px;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-  margin-top: 16px;
 }
 
-footer div.f-nav-2 nav a {
+footer nav.f-nav-2 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.4);
   font-size: 12px;
-  float: left;
-  width: 6%;
 }
 
-footer div.f-nav-2 nav a:first-child {
-  width: 220px;
-}
-
-footer div.f-nav-2 nav a:hover {
+footer nav.f-nav-2 a:hover {
   text-decoration: underline;
 }
