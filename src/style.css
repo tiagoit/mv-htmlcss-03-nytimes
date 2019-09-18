@@ -86,7 +86,8 @@ article {
 .article-info,
 .article {
   margin: 0 auto;
-  padding: 0 300px;
+  /* padding: 0 300px; */
+  width: 600px;
 }
 
 .social-media {
@@ -110,12 +111,22 @@ article {
 }
 
 .article-img img {
-  width: 700px;
   margin: 0 auto;
-  padding: 0;
   float: left;
+  margin-bottom: 10px;
+}
+
+.img-caption {
+  font-size: 16px;  
+  line-height: 19px;
+  color: rgb(63, 63, 63);
 }
 
 #diagram-img {
   width: 900px;
+  padding: 0;
+}
+
+#telescope-img {
+  width: 100%;
 }
