@@ -167,8 +167,37 @@ article {
   font-weight: 700;
 }
 
-/* FOOTER */
+/* ASIDE */
+aside {
+  width: 280px;
+  position: absolute;
+  float: right;
+  top: 960px;
+  right: 360px;
+}
 
+aside h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+aside div {
+  height: 90px;
+  display: inline-flex;
+}
+
+aside div img {
+  height: 80px;
+}
+
+aside div .title {
+  font-size: 14px;
+  margin-left: 4px;
+  text-align: justify;
+  line-height: 18px;
+}
+
+/* FOOTER */
 div.ny-logo {
   width: 90%;
   margin-left: 5%;
