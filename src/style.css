@@ -58,11 +58,10 @@ header nav button {
 
 /* ASIDE */
 aside {
-  width: 280px;
-  position: absolute;
+  width: 270px;
   float: right;
   top: 960px;
-  right: 80px;
+  margin-right: 240px;
 }
 
 aside > h2 {
@@ -76,7 +75,7 @@ aside > div {
 }
 
 aside > div img {
-  height: 80px;
+  height: 70px;
 }
 
 aside > div .title {
@@ -87,9 +86,6 @@ aside > div .title {
 }
 
 /* ARTICLE / MAIN  */
-div.main-wrapper {
-  /* display: inline-block; */
-}
 
 article {
   width: 1200px;
