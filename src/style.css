@@ -208,6 +208,7 @@ article .social-media img {
 footer {
   clear: both;
   margin-top: 80px;
+  padding-bottom: 60px;
 }
 
 footer div.f-nav-1::before {
@@ -302,4 +303,17 @@ footer div.ny-logo > span:last-child {
 footer div.ny-logo > span:last-child a {
   text-decoration: none;
   color: blue;
+}
+
+.login-sticky {
+  position: fixed;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  background-color: #fff;
+  border-top: 1px solid black;
+  padding: 20px 0;
+  margin-left: -7px;
 }
