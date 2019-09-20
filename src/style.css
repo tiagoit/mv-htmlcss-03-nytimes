@@ -1,5 +1,9 @@
+.float-left {
+  float: left;
+}
+
 body {
-  margin-top: 80px 0 0;
+  margin: 80px 0 0;
   font-size: 18px;
 }
 
@@ -198,6 +202,65 @@ article .social-media img {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+/* BOTTOM SECTION */
+* {
+  box-sizing: border-box;
+}
+section.bottom-sec {
+  width: calc(100% - 160px);
+  margin: 0 80px;
+}
+
+section.bottom-sec .section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+section.bottom-sec > .more-in-category {
+  width: 66%;
+  float: left;
+  border-top: 1px solid black;
+  margin: 40px 0;
+}
+
+section.bottom-sec > .more-in-category .article-thumb {
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 24px;
+}
+
+section.bottom-sec > .more-in-category .article-thumb img {
+  max-width: 80%;
+}
+
+section.bottom-sec > .more-in-category .article-thumb .title {
+  max-width: 90%;
+}
+
+section.bottom-sec > .more-in-category .article-thumb .published {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 8px;
+}
+
+section.bottom-sec > .most-popular {
+  width: 33%;
+  float: right;
+  border-top: 1px solid black;
+  margin: 40px 0;
+}
+
+section.bottom-sec > .most-popular ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section.bottom-sec > .most-popular ul li {
+  line-height: 48px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 /* FOOTER */
