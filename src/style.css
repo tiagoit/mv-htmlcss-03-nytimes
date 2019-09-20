@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .float-left {
   float: left;
 }
@@ -205,9 +209,6 @@ article .social-media img {
 }
 
 /* BOTTOM SECTION */
-* {
-  box-sizing: border-box;
-}
 section.bottom-sec {
   width: calc(100% - 160px);
   margin: 0 80px;
@@ -253,12 +254,12 @@ section.bottom-sec > .most-popular {
   margin: 40px 0;
 }
 
-section.bottom-sec > .most-popular ul {
+.most-popular ul {
   list-style-type: none;
   padding: 0;
 }
 
-section.bottom-sec > .most-popular ul li {
+.most-popular ul li {
   line-height: 48px;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
 }
