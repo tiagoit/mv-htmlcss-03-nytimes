@@ -259,7 +259,7 @@ section.bottom-sec > .most-popular {
   padding: 0;
 }
 
-.most-popular ul li {
+.most-popular li {
   line-height: 48px;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
 }
