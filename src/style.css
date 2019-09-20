@@ -259,6 +259,10 @@ section.bottom-sec > .most-popular {
   padding: 0;
 }
 
+footer div.f-nav-1 nav ul li {
+  margin-top: 8px;
+}
+
 .bottom-sec > .most-popular ul > li {
   line-height: 48px;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
@@ -291,10 +295,6 @@ footer div.f-nav-1 nav ul {
   width: 13%;
   margin: auto;
   list-style-type: none;
-}
-
-footer div.f-nav-1 nav ul li {
-  margin-top: 8px;
 }
 
 footer div.f-nav-1 nav li:first-child {
