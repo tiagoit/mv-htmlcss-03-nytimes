@@ -200,6 +200,8 @@ article .social-media img {
   padding-bottom: 90px;
   font-size: 12px;
   line-height: 16px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .bold-text {
@@ -278,6 +280,11 @@ footer {
   clear: both;
   margin-top: 80px;
   padding-bottom: 60px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
 
 footer div.f-nav-1::before {
