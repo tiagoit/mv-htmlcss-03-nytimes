@@ -195,7 +195,7 @@ article .social-media img {
   display: inline-block;
   width: 204px;
   height: 100px;
-  margin: 35px 10px;
+  margin: 64px 10px;
   font-family: "Raleway", sans-serif;
   padding-bottom: 90px;
   font-size: 12px;
@@ -229,9 +229,14 @@ section.bottom-sec > .more-in-category {
   margin: 40px 0;
 }
 
+.article-thumb-wrapper {
+  float: left;
+  display: inline-table;
+}
+
 section.bottom-sec > .more-in-category .article-thumb {
   display: inline-block;
-  width: 33%;
+  width: 33.3333%;
   margin-bottom: 24px;
 }
 
@@ -241,6 +246,7 @@ section.bottom-sec > .more-in-category .article-thumb img {
 
 section.bottom-sec > .more-in-category .article-thumb .title {
   max-width: 90%;
+  min-height: 68px;
 }
 
 section.bottom-sec > .more-in-category .article-thumb .published {
@@ -263,6 +269,14 @@ section.bottom-sec > .most-popular {
 
 footer div.f-nav-1 nav ul li {
   margin-top: 8px;
+}
+
+footer div.f-nav-1 nav ul li.icon-item {
+  font-weight: bold;
+}
+
+footer div.f-nav-1 nav ul li svg {
+  height: 12px;
 }
 
 footer div.f-nav-1 h4 {
@@ -304,7 +318,7 @@ footer div.f-nav-1 {
 
 footer div.f-nav-1 nav ul {
   float: left;
-  width: 13%;
+  width: 16%;
   margin: auto;
   list-style-type: none;
 }
