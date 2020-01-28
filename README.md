@@ -1,17 +1,29 @@
-# NY Times Post using CSS Float
+# 📃 Microverse Assignment: NY Times Post using CSS Float
+This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
 
-Copy of an NY Times postusing CSS Float positioning. (an Microverse Project)
+Copy of an NY Times postusing CSS Float positioning.
 
-### Technology
+**Assignment page** - [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
-HTML, CSS
+## 📡 Technologies used
+- HTML
+- CSS
 
-### Authors
+## 🚀 The project
+This project can be found in https://github.com/tiagoit/mv-htmlcss-03-nytimes
 
-- **Tiffany Arellano** - [@yirano](https://github.com/yirano)
-- **Tiago Ferreira** - [@ferreirati](https://github.com/ferreirati)
+## ✨ [live version](https://tiagoit.github.io/mv-htmlcss-03-nytimes/src/)
 
-### Links
+## 💻 Serve it on localhost
+  - Clone the repository
+  - Run your favorite Webserver pointing to `/src` folder
 
-- **Assignment page** - [The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
-- **Live** - [Github pages](https://ferreirati.github.io/mv-03-htmlcss-nytimes/src)
+## 🤖 Contributors
+Tiago Ferreira @ [ferreirati](https://github.com/tiagoit)
+Tiffany Arellano @ [yirano](https://github.com/yirano)
+
+## 🙋‍♂ Show your support
+Give a ⭐️ if you like this project!
+
+## 📝 License
+This project is [MIT](https://github.com/tiagoit/mv-htmlcss-03-nytimes/license.txt) licensed.
